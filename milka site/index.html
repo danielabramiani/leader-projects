@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    
+</head>
+<body>
+
+<header>
+  <nav>
+    <img class="logo" src="./images/milka_logo-removebg-preview.png" alt="milka logo">
+      <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="">Recomendation</a></li>
+          <li><a href="#commerical-section">About</a></li>
+          <li><a href="#footer">Contact</a></li>
+          <li><a href="#top">Best Sale</a></li>
+      </ul>
+  </nav>
+</header>
+
+<main>
+  <section class="main-image">
+    <img src="./images/milka2.0-removebg-preview.png" alt="main" />
+  </section>
+</main>
+
+<section class="commerical-section" id="commerical-section">
+  <div class="container">
+      <div class="row">
+          <div class="col-lg-6">
+              <div class="title" id="milka">
+                  <h1>Milka</h1>
+              </div>
+              <div class="tag-line">
+                  <h3>A Choclate land full of dreams</h3>
+                  <h5>Made By Daniel Abramiani</h5>
+              </div>
+              <div class="description">
+                  <p>Milka is one of the world's most beloved – and recognizable – chocolate brands. Made with Alpine milk, Milka has been delighting consumers in Germany and beyond since 1901. The brand, with its unique lilac-colored packaging and Lila, the Milka cow, have a dedicated “cow-munity” of adoring fans around the world!</p>
+              </div>
+          </div>
+          <div class="col-lg-6 second-portion ">
+              <div class="pictures">
+                  <div class="images">
+                      <img src="./images/milka-seaction.jpg" onclick="changeBackgroundImageSeason(this)">
+                  </div>
+                  <div class="images">
+                      <img src="./images/milka-milk.webp" onclick="changeBackgroundImageSeason(this)">
+                  </div>
+                  <div class="images commerical-active-image">
+                      <img src="./images/milka-goodness.jpg" onclick="changeBackgroundImageSeason(this)">
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+
+
+<div class="footer" id="footer">
+    <div class="footer-card">
+        <p>contact us:</p>
+        <a href="https://www.facebook.com/Milka">Facebook</a>
+        <p>+number</p>
+        <p>example@gmail.com</p>
+        <p>Milka Site</p>
+        <p>Made By Daniel Abramiani</p>
+    </div>
+</div>
+
+<script src="./script.js"></script>
+</body>
+</html>
